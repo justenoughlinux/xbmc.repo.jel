@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.screensaver.idlelogout" name="Idle Log Out" version="0.1" provider-name="JustEnoughLinux">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="addon.py">
+	<provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Log current profile out when system is idle.</summary>
+    <description>This addon uses the screensaver as a timer to execute a log out command for the current profile.</description>
+    <assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+  </extension>
+</addon>
+
